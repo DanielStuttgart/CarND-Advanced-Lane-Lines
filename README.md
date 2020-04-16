@@ -18,6 +18,7 @@ Final image with lane area (back-warping)
 
 ### Perspective Transform
 The perspective transform is needed in order to generate a top-view-image s.t. the curvature of the street can be measured. To find corresponding locations, a trapezoid was fitted on an image with straigt lines. These points were used as the mapping function between the "undistorted, undwarped" and "undistorted, warped" image. The mapping matrix is given below: 
+
 Original x	| Original y |	New x |	New y	 |
 ------------|------------|--------|--------|-----
 200	| 720	| 320 |	720 |	Bottom left
