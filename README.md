@@ -39,6 +39,8 @@ While experimenting with the s-channel after RGB-to-HLS-conversion I saw, that t
 
 Due to this reason, white and yellow color is filtered within the image in RGB- and HSV-space with following threshold values: 
 
+Color | Red | Green | Blue
+------|-----|-------|------
 White |	180 <= R <= 255 | 180 <= G <= 255 | 180 <= B <= 255
 Yellow | 90 <= H <= 110 | 60 <= S <= 255 | 100 <= V <= 255
 
